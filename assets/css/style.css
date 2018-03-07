@@ -258,14 +258,13 @@ input[type=submit] {
     max-width: 980px;
     width: 30%;
   }
-
   #logo {
     margin-left: 75px;
   }
   nav {
     margin-right: 75px;
   }
- }
+}
 
 @media screen and (max-width: 768px) {
   body {
@@ -279,13 +278,16 @@ input[type=submit] {
     width: 90%;
   }
   .sidebar {
-    float: none;
-    margin: 25px auto;
+    float: left;
+    margin: 25px 0 25px 39px;
     padding: 10px;
     max-width: 768px;
     width: 90%;
   }
-
+  #logo {
+    margin-left: 39px;
+    width: 30%;
+  }
   
 }
 
@@ -304,6 +306,7 @@ input[type=submit] {
     width: 90%;
   }
   #logo {
+    margin-left: 0;
     width: 100%;
   }
   #masthead nav {
@@ -311,7 +314,7 @@ input[type=submit] {
     width: 100%;
   }
   #masthead nav a {
-    padding: 0 50px 0 50px;
+    padding: 0 40px 0 40px;
   }
   .auth-image {
     width: 90%;
@@ -324,4 +327,14 @@ input[type=submit] {
     max-width: 640px;
     width: 90%;
   }
+
+    .work {
+    float: none;
+    max-width: 640px;
+    width: 90%;
+    margin-left: 25px;
+    text-align: center;
+  }
+
+  
 }
