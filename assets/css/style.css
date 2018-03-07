@@ -238,12 +238,55 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {}
+@media screen and (max-width: 980px) {
+  body {
+    max-width: 980px;
+  }
+  .main-section {
+    float: left;
+    margin-top: 25px;
+    margin-left: 75px;
+    padding: 10px;
+    max-width: 980px;
+    width: 40%;
+  }
+  .sidebar {
+    float: right;
+    margin-top: 25px;
+    margin-right: 75px;
+    padding: 10px;
+    max-width: 980px;
+    width: 30%;
+  }
+
+  #logo {
+    margin-left: 75px;
+  }
+  nav {
+    margin-right: 75px;
+  }
+ }
 
 @media screen and (max-width: 768px) {
-  /* body {
-    width: 768px;
-  } */
+  body {
+    max-width: 768px;
+  }
+  .main-section {
+    float: none;
+    margin: 25px auto;
+    padding: 10px;
+    max-width: 768px;
+    width: 90%;
+  }
+  .sidebar {
+    float: none;
+    margin: 25px auto;
+    padding: 10px;
+    max-width: 768px;
+    width: 90%;
+  }
+
+  
 }
 
 @media screen and (max-width: 640px) {
@@ -253,14 +296,13 @@ input[type=submit] {
   body {
     max-width: 640px;
   }
-    
   .main-section {
     float: none;
-    margin: 50px auto;
+    margin: 25px auto;
     padding: 10px;
+    max-width: 640px;
     width: 90%;
   }
- 
   #logo {
     width: 100%;
   }
@@ -276,10 +318,10 @@ input[type=submit] {
     text-align: center;
   }
   .sidebar {
-    max-width: 640px;
     float: none;
-    margin: 50px auto;
+    margin: 25px auto;
     padding: 10px;
+    max-width: 640px;
     width: 90%;
   }
 }
