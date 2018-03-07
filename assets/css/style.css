@@ -238,15 +238,12 @@ input[type=submit] {
   border: 0 none;
 }
 
-
-@media screen and (max-width: 980px) {
-
-}
+@media screen and (max-width: 980px) {}
 
 @media screen and (max-width: 768px) {
-  body {
+  /* body {
     width: 768px;
-  }
+  } */
 }
 
 @media screen and (max-width: 640px) {
@@ -254,17 +251,16 @@ input[type=submit] {
     position: static;
   }
   body {
-    width: 640px;
+    max-width: 640px;
   }
-  .container {
-    width: 100%;
-    text-align: center;
+    
+  .main-section {
+    float: none;
+    margin: 50px auto;
+    padding: 10px;
+    width: 90%;
   }
-  
-#main-container {
-  margin: 0 10px 0 10px;
-}
-
+ 
   #logo {
     width: 100%;
   }
@@ -281,7 +277,9 @@ input[type=submit] {
   }
   .sidebar {
     max-width: 640px;
-    float: left;
+    float: none;
+    margin: 50px auto;
+    padding: 10px;
+    width: 90%;
   }
 }
-
